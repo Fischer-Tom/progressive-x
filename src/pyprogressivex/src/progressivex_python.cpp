@@ -106,7 +106,6 @@ int find6DPoses_(
 	end = std::chrono::system_clock::now(); // The end time of the neighborhood calculation
 	std::chrono::duration<double> elapsed_seconds = end - start; // The elapsed time in seconds
 
-	printf("Neighborhood calculation time = %f secs.\n", elapsed_seconds.count());
 
 	// The main sampler is used inside the local optimization
 	gcransac::sampler::UniformSampler main_sampler(&points);
