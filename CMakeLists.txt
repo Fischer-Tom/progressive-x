@@ -90,6 +90,7 @@ endif()
 #    set(GLOG_LIBRARIES ${GLOG_LIBRARY})
 #endif()
 #
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/Findglog.cmake")
 find_package(glog REQUIRED)
 if(NOT glog_FOUND)
 	message(FATAL_ERROR "Glog not found.")
