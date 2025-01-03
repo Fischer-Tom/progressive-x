@@ -6,7 +6,7 @@ project(ProgressiveX LANGUAGES CXX)
 option(USE_OPENMP "Use OPENMP" ON)
 
 # indicate if the sample project should be included
-option(CREATE_SAMPLE_PROJECT "Create the Sample Project" ON)
+option(CREATE_SAMPLE_PROJECT "Create the Sample Project" OFF)
 
 # indicate if GFLags should be enabled
 option(USE_GFLAGS "Enable Google Flags." ON)
