@@ -11,7 +11,7 @@
 #pragma once
 
 #include "cast.h"
-#include <cstdlib>
+#include <cstdint>
 NAMESPACE_BEGIN(pybind11)
 
 /// \addtogroup annotations

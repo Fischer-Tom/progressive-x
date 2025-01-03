@@ -36,7 +36,7 @@
 #include "attr.h"
 #include "options.h"
 #include "class_support.h"
-#include <cstdlib>
+#include <cstdint>
 
 NAMESPACE_BEGIN(pybind11)
 
