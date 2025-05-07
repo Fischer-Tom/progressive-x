@@ -1,4 +1,3 @@
 [submodule "graph-cut-ransac"]
 	path = graph-cut-ransac
-	url = https://github.com/Fischer-Tom/graph-cut-ransac
-	branch = nemo9d
+	url = https://github.com/danini/graph-cut-ransac.git
